@@ -7,7 +7,7 @@ namespace KnowledgeCheck2
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine("How many records do you want to add? ");
             var NumOfRecords = int.Parse(Console.ReadLine());
@@ -39,7 +39,7 @@ namespace KnowledgeCheck2
     }
 
 }
-public abstract class Animal
+public class Animal
 {
     public int legs = 4;
     public int tail = 1;
